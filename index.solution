@@ -1,0 +1,72 @@
+Assignment 1.4 — Git Essentials I
+Objective
+
+To convert a local project into a Git repository using Git commands.
+
+1. Check Git Installation
+bash
+git --version
+
+2. Initialize Repository
+bash
+mkdir Assignment-1.4
+cd Assignment-1.4
+git init
+
+3. Configure Git
+bash
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+4. Create HTML File
+
+Create index.html:
+
+HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Git Project</title>
+</head>
+<body>
+    <h1>Welcome to My First Git Project</h1>
+    <p>Learning Git and GitHub.</p>
+    <footer>Assignment 1.4</footer>
+</body>
+</html>
+
+5. Check Git Status
+bash
+git status
+
+6. Make Three Commits
+
+Commit 1:
+
+bash
+git add index.html
+git commit -m "Initial HTML structure"
+
+
+Commit 2: Add a welcome paragraph and commit the changes.
+
+bash
+git add index.html
+git commit -m "Add welcome message"
+
+
+Commit 3: Add a footer and commit the changes.
+
+bash
+git add index.html
+git commit -m "Add footer section"
+
+7. Check Commit History
+bash
+git log --oneline
+
+8. Conclusion
+
+Successfully initialized a Git repository, configured Git, created an HTML file, and practiced basic Git commands by making three meaningful commits.
+
+Submission: Screenshots of the project folder and three-commit history.
